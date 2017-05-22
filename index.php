@@ -18,6 +18,7 @@
  <?php include ('fragments/form.html')?>
  <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
  <script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
  <!--script type="text/javascript" src="js/fixtures.js"--><!--/script-->
  <script type="text/javascript" src="vendors/main.js"></script>
 </body>
