@@ -9,13 +9,13 @@
   <div class="jumbotron">
     <div class="container">    
      <!-- navbar-->
-     <?php include ("fragments/nav.html")?>
+     <?php include ('fragments/nav.html')?>
      <!-- welcome-->
-     <?php include ("fragments/welcome.html")?>
+     <?php include ('fragments/welcome.html')?>
    </div>
  </div>
  <!--form contatti -->
- <?php include ("fragments/form.html")?>
+ <?php include ('fragments/form.html')?>
  <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
  <script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
  <!--script type="text/javascript" src="js/fixtures.js"--><!--/script-->
