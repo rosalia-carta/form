@@ -41,44 +41,89 @@
             <h1>Contattaci</h1>
             <h3>e ti risponderemo al più presto</h3>
         </div>
-<!--form start-->
-
-     
+<!--form start
+   
         <form class="form-contats">
             <div class="row">
-                <!--start contats -->
+                
                 <div class="col-md-6">
                    <div class="form-group">
                         <label for="exampleInputEmail1">Indirizzo Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Please type yuor Email" required>
                     </div>
-<!--nuovo mail-->
-               
-<!--end nuovo mail-->
-                  <div class="form-group">
+
+                   <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Choose your Password" required>
                     </div> 
-<!--nuovo tel-->
- 
-
-<!--end nuovo tel-->
-
-
 
                 </div>
                 <div class="col-md-6">
                     <label for="exampleInputPassword1">Messaggio</label>
                     <textarea class="form-control" rows="3"></textarea>
                 </div>
-                <!--end contats-->
+               
             </div>
             <div class="row text-center">
                 <button type="submit" class="btn btn-default">Invio</button>
             </div>
         </form>
 
+form end-->
+        
+     <!--form start-->
+        <form role="form" data-toggle="validator">
+            <div class="row row-form">
+              <div class="col-lg-12">
+                  <div class="form-group has-feedback">
+                    <label for="inputName" class="control-label">Name</label>
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input type="text" class="form-control input-lg" id="inputName" placeholder="Your name" data-error="Please insert your name" autofocus="" required>
+                  </div>
+                  <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                  <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group has-feedback">
+                <label for="inputEmail" class="control-label">Email</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                  <input type="email" class="form-control input-lg" id="inputEmail" placeholder="email@example.com" data-error="Hey, that email address is invalid!" required>
+              </div>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"><i>Please insert a valid email address</i></div>
+          </div>
+          <div class="form-group">
+            <label for="inputPhone" class="control-label">Phone</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-phone-alt"></i></span>
+              <input type="number" class="form-control input-lg" id="inputPhone" placeholder="Leave phone number if you wish to be called">
+          </div>
+          <div class="help-block with-errors"><i>Please insert numbers only</i></div>
+      </div>
+      <div class="form-group has-feedback">
+        <label for="inputText" class="control-label">Message</label>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+          <textarea class="form-control input-lg" rows="3" placeholder="Why are you contacting us?" required></textarea>
+      </div>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <button type="submit" class="btn btn-default btn-lg">Submit</button>
+  </div>
+</div>
+
+</div>
+</div>
+</form>   
 <!--form end-->
+        
+        
+        
+        
     </div>   
 
 <script src="vendors/js/jquery.min.js"></script>
