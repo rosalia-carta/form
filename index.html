@@ -41,9 +41,10 @@
          <h1>Contattaci</h1>
          <h3>e ti risponderemo al più presto</h3>
        </div>
-       <form class="form-contats">
+      <!--start contats 
+         <form class="form-contats">
          <div class="row">
-           <!--start contats -->
+           
            <div class="col-md-6">
             <div class="form-group">
              <label for="exampleInputEmail1">Indirizzo Email</label>
@@ -58,7 +59,54 @@
            <label for="exampleInputPassword1">Messaggio</label>
            <textarea class="form-control" rows="3"></textarea>
          </div>
-         <!--end contats-->
+         -->
+         
+           <div>
+              <div class="col-lg-12">
+                <div class="col-lg-6">
+
+                  <div class="form-group">
+                    <label for="exampleInputNome">Nome</label>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="nome" type="text" class="form-control input-lg" placeholder="Digita qui il tuo nome" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Indirizzo email</label>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
+                      <input name="email" type="email" class="form-control input-lg" id="exampleInputEmail1" placeholder="Digita qui la tua email" required>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputTelefono">Telefono</label>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                      <input name="telefono" type="number" class="form-control input-lg" placeholder="Digita qui il tuo numero di telefono" required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="exampleInputmessage">Messaggio</label>
+                    <textarea class="form-control input-lg" placeholder="Digita qui il tuo messaggio" required></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Invia messaggio</button>
+              </div>
+            </div>
+         
+         
+         
        </div>
        <div class="row text-center">
          <button type="submit" class="btn btn-default">Invio</button>
